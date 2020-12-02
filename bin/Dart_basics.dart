@@ -35,6 +35,37 @@ void main(List<String> arguments) {
 
   print (v);
   
-  
+  // ---------------- Strings in Dart
+
+  String name = "Abdullah Sheikh";
+
+  print ("My Name is : ${name}");
+
+  String firstname = name.substring(0,8);
+
+  print ("First Name : ${firstname}");
+
+  int index = name.indexOf(' ');
+  String lastname = name.substring(index).trim();
+
+  print ("Last Name : ${lastname}");
+
+  print (name.length);
+
+  print (name.contains('Abd'));
+
+  List parts = name.split(' ');
+
+  print (parts);
+  print(parts[0]);
+  print(parts[1]);
+
+
+
+
+
+
+
+
 
 }
