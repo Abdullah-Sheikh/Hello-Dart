@@ -95,6 +95,14 @@ void main(List<String> arguments) {
   thing.add(3);
   print(thing);
 
+  // Set in Dart
+
+  Set <int> set = new Set <int>(); // unorderd , don't contain Depulicate
+  set.add(1);
+  set.add(2);
+  set.add(1);
+  print(set);
+
 
 
 
