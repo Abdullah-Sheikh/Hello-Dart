@@ -69,15 +69,33 @@ void main(List<String> arguments) {
   // User inputs in Dart 
   
   stdout.write('What is your name ?\r\n');
-  String n = stdin.readLineSync();
+ // String n = stdin.readLineSync();
 
-  n.isEmpty ? stderr.write("Nmae is Empty\n") : stdout.write('Hello ${n}\n');
+  //n.isEmpty ? stderr.write("Nmae is Empty\n") : stdout.write('Hello ${n}\n');
 
 
   // enum in Dart (must delcre outside from main
 
   print(colors.values);
   print(colors.red);
+
+  List numb = [1,2,3,4];
+  print (numb.length);
+  print (numb);
+
+  List things = new List();
+  things.add(1);
+  things.add("Value");
+  things.add(true);
+  print(things);
+
+  List <int> thing = new List <int>();
+  thing.add(1);
+  thing.add(2);
+  thing.add(3);
+  print(thing);
+
+
 
 
 
