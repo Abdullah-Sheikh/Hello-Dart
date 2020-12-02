@@ -1,6 +1,8 @@
 //import 'dart:html';
-
+import 'dart:io';
+import 'dart:async';
 import 'package:Dart_basics/Dart_basics.dart' as Dart_basics;
+import 'package:test/test.dart';
 
 void main(List<String> arguments) {
 
@@ -59,6 +61,16 @@ void main(List<String> arguments) {
   print (parts);
   print(parts[0]);
   print(parts[1]);
+
+
+  // User inputs in Dart 
+  
+  stdout.write('What is your name ?\r\n');
+  String n = stdin.readLineSync();
+
+  n.isEmpty ? stderr.write("Nmae is Empty") : stdout.write('Hello ${n}');
+
+
 
 
 
