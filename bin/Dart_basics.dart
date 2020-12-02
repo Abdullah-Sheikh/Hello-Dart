@@ -4,6 +4,9 @@ import 'dart:async';
 import 'package:Dart_basics/Dart_basics.dart' as Dart_basics;
 import 'package:test/test.dart';
 
+
+enum colors {red, blue , green }
+
 void main(List<String> arguments) {
 
   print('Hello Dart !');
@@ -68,7 +71,16 @@ void main(List<String> arguments) {
   stdout.write('What is your name ?\r\n');
   String n = stdin.readLineSync();
 
-  n.isEmpty ? stderr.write("Nmae is Empty") : stdout.write('Hello ${n}');
+  n.isEmpty ? stderr.write("Nmae is Empty\n") : stdout.write('Hello ${n}\n');
+
+
+  // enum in Dart (must delcre outside from main
+
+  print(colors.values);
+  print(colors.red);
+
+
+
 
 
 
