@@ -1,5 +1,6 @@
 //import 'dart:html';
 import 'dart:io';
+import 'dart:collection';
 import 'dart:async';
 import 'package:Dart_basics/Dart_basics.dart' as Dart_basics;
 import 'package:test/test.dart';
@@ -102,6 +103,16 @@ void main(List<String> arguments) {
   set.add(2);
   set.add(1);
   print(set);
+
+  // Queue in Dart
+
+  Queue items = new Queue();
+  items.add(1);
+  items.add(3);
+  items.add(2);
+  items.removeFirst();
+
+  print(items);
 
 
 
