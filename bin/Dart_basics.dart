@@ -131,6 +131,20 @@ void main(List<String> arguments) {
  print("Finished");
 
 
+ // if else in Dart
+
+  int yAge = 40;
+
+  if(yAge==40)
+    {
+      print("You are 40 years old");
+    }
+  else
+    {
+      print("You are not 40 year old");
+    }
+
+
 
 
 
