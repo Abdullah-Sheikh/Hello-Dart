@@ -122,6 +122,13 @@ void main(List<String> arguments) {
   print(peoples.keys);
   print(peoples);
 
+// assert in Dart
+
+ print ("Starting");
+ int ages = 43;
+
+ assert (ages == 43);
+ print("Finished");
 
 
 
