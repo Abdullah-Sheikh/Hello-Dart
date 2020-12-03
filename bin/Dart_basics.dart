@@ -115,6 +115,14 @@ void main(List<String> arguments) {
   print(items);
 
 
+  // Maps in DART
+
+  Map peoples = { 'dad':'ali', 'son':'hassan'};
+
+  print(peoples.keys);
+  print(peoples);
+
+
 
 
 
